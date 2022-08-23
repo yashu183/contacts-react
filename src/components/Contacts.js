@@ -41,10 +41,10 @@ const Contacts = () => {
 
     if (contacts.length === 0) {
         return (
-            <>
-                <h4>Please add some contacts...BROOOOOOO!!!!!</h4>
+            <div className="w-full flex justify-center items-center">
+                <h4 className="w-full text-2xl">Please add some contacts...BROOOOOOO!!!!!</h4>
                 <img className="w-96 h-80" src={bro_review_no_contacts} alt="BROOOO!!!!!!!" />
-            </>
+            </div>
         );
     }
 

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const httpClient = axios.create({
-    baseURL: 'http://localhost:5555/api'
+    baseURL: 'https://contacts-api.yashu.cf/api'
 });
 
 httpClient.interceptors.request.use((config) => {
