@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-contactkeeperui-dev-192403-authRole",
+      "UnauthRoleArn": "arn:aws:iam::904486400881:role/amplify-contactkeeperui-dev-192403-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::904486400881:role/amplify-contactkeeperui-dev-192403-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-contactkeeperui-dev-192403-deployment",
+      "UnauthRoleName": "amplify-contactkeeperui-dev-192403-unauthRole",
+      "StackName": "amplify-contactkeeperui-dev-192403",
+      "StackId": "arn:aws:cloudformation:us-east-1:904486400881:stack/amplify-contactkeeperui-dev-192403/b90ceb70-260f-11ed-89ff-0e0b13b7320d",
+      "AmplifyAppId": "d20i5fs5i6z7p6",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-contactkeeperui-dev-192403-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "contactsAuth": {}
+      },
+      "function": {
+        "contactsAuthCustomMessage": {
+          "REDIRECTURL": "https:contacts-api.yashu.cf",
+          "EMAILSUBJECT": "Confirm your account",
+          "EMAILMESSAGE": "Hii from Contacts App. Confirm your account by clicking on the link",
+          "deploymentBucketName": "amplify-contactkeeperui-dev-192403-deployment",
+          "s3Key": "amplify-builds/contactsAuthCustomMessage-71317a70306f6b625969-build.zip"
+        },
+        "contactsAuthPostConfirmation": {
+          "GROUP": "users",
+          "deploymentBucketName": "amplify-contactkeeperui-dev-192403-deployment",
+          "s3Key": "amplify-builds/contactsAuthPostConfirmation-66654443742b3045356a-build.zip"
+        }
+      }
+    }
+  }
+}

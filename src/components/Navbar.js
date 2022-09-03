@@ -15,6 +15,7 @@ const Navbar = () => {
     const url = useLocation();
 
     useEffect(() => {
+        setLoading(true);
         getLoggedInUser();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);

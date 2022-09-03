@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "contactsAuth",
+  "functionName": "contactsAuthCustomMessage",
+  "resourceName": "contactsAuthCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "contactsAuthCustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https:contacts-api.yashu.cf",
+  "EMAILSUBJECT": "Confirm your account",
+  "EMAILMESSAGE": "Hii from Contacts App. Confirm your account by clicking on the link",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
