@@ -125,29 +125,6 @@ const Login = () => {
                         className="border rounded bg-gray-800 hover:bg-gray-700 text-white w-full h-10 mt-5">
                         Sign in
                     </button>
-
-                    <div className="flex">
-                        <hr className="w-1/6 sm:w-2/6 mt-8" />
-                        <span className="text-gray-600 block w-fit mx-auto mt-5">
-                            or continue with
-                        </span>
-                        <hr className="w-1/6 sm:w-2/6 mt-8" />
-                    </div>
-
-                    <div className="social flex flex-wrap justify-around mt-5">
-                        <div className="facebook border hover:cursor-pointer hover:bg-gray-100 flex items-center justify-center border-gray-300 rounded round w-16 sm:w-24 h-10">
-                            <i className="text-2xl w-fit text-gray-500 fa-brands fa-facebook"></i>
-                        </div>
-                        <div className="google border hover:cursor-pointer hover:bg-gray-100 flex items-center justify-center border-gray-300 rounded round w-16 sm:w-24 h-10">
-                            <i className="text-2xl w-fit text-gray-500 fa-brands fa-google"></i>
-                        </div>
-                        <div className="twitter border hover:cursor-pointer hover:bg-gray-100 flex items-center justify-center border-gray-300 rounded round w-16 sm:w-24 h-10">
-                            <i className="text-2xl w-fit text-gray-500 fa-brands fa-twitter"></i>
-                        </div>
-                        <div className="github border hover:cursor-pointer hover:bg-gray-100 flex items-center justify-center border-gray-300 rounded round w-16 sm:w-24 h-10">
-                            <i className="text-2xl w-fit text-gray-500 fa-brands fa-github"></i>
-                        </div>
-                    </div>
                 </form>
             </div>
         </>
